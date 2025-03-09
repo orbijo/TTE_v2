@@ -68,7 +68,4 @@ class TrialSequence:
         }
         for key, value in summary_info.items():
             print(f"{key}: {value}")
-    
-# Example usage:
-# trial = TrialSequence("ITT", parameter_1="value_1", parameter_2="value_2")
-# trial.summary()
+
